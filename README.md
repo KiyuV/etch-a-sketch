@@ -1,0 +1,1 @@
+This project aims to create an etch-a-sketch-like webpage where a trail is left behind when mousing over the page.
