@@ -3,3 +3,14 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+button {
+    padding: 8px;
+    width: 10vw;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
