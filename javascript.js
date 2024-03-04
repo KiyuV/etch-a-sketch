@@ -15,6 +15,9 @@ function createGrid(height, width) {
             let tmpDiv = document.createElement('div');
             tmpDiv.style.height = `${divHeight}vh`;
             tmpDiv.style.width = `${divWidth}vw`;
+            tmpDiv.addEventListener('mouseover', () => {
+                tmpDiv.style.backgroundColor = `orange`;
+            });
             tmpContainer.appendChild(tmpDiv);
             body.appendChild(tmpContainer);
         }
